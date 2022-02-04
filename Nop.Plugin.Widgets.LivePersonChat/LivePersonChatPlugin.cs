@@ -19,7 +19,7 @@ namespace Nop.Plugin.Widgets.LivePersonChat
         private readonly ISettingService _settingService;
         private readonly IWebHelper _webHelper;
 
-        public bool HideInWidgetList => throw new System.NotImplementedException();
+        public bool HideInWidgetList => false;
 
         #endregion
 
